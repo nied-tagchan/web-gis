@@ -59,8 +59,115 @@
       </ows:DCP>
     </ows:Operation>
   </ows:OperationsMetadata>
-  <ServiceMetadataURL xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml" />
   <Contents>
+    <Layer>
+      <ows:Title>Standard Map (by GSI)</ows:Title>
+      <ows:Identifier>std</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>Aerial photograph (by GSI)</ows:Title>
+      <ows:Identifier>ort</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>Active fault diagram (publicly disclosed by Headquarters for Earthquake Research Promotion)</ows:Title>
+      <ows:Identifier>active_fault_suihon</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://insarmap.gsi.go.jp/xyz/active_fault_suihon/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>Blank map (by GSI)</ows:Title>
+      <ows:Identifier>blank</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>Active faults Map (by GSI)</ows:Title>
+      <ows:Identifier>afm</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/afm/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>1970s Aerial photograph (by GSI)</ows:Title>
+      <ows:Identifier>gazo1</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/gazo1/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>Color releaf (by GSI)</ows:Title>
+      <ows:Identifier>relief</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>1945-1950 Aerial photograph (by GSI)</ows:Title>
+      <ows:Identifier>ort_USA10</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>1961-1964 Aerial photograph (by GSI)</ows:Title>
+      <ows:Identifier>ort_old10</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort_old10/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
     <TileMatrixSet>
       <ows:Identifier>z2to18</ows:Identifier>
       <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18:3:3857</ows:SupportedCRS>
@@ -218,113 +325,6 @@
         <MatrixHeight>262144</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
-    <Layer>
-      <ows:Title>Standard Map (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/std/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>Aerial photograph (by GSI)</ows:Title>
-      <ows:Identifier>ort</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>Active fault diagram (publicly disclosed by Headquarters for Earthquake Research Promotion)</ows:Title>
-      <ows:Identifier>active_fault_suihon</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://insarmap.gsi.go.jp/xyz/active_fault_suihon/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>Blank map (by GSI)</ows:Title>
-      <ows:Identifier>blank</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>Active faults Map (by GSI)</ows:Title>
-      <ows:Identifier>afm</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/afm/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>1970s Aerial photograph (by GSI)</ows:Title>
-      <ows:Identifier>gazo1</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/gazo1/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>Color releaf (by GSI)</ows:Title>
-      <ows:Identifier>relief</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>1945-1950 Aerial photograph (by GSI)</ows:Title>
-      <ows:Identifier>ort_USA10</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
-      <ows:Title>1961-1964 Aerial photograph (by GSI)</ows:Title>
-      <ows:Identifier>ort_old10</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort_old10/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
   </Contents>
+  <ServiceMetadataURL xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml" />
 </Capabilities>
