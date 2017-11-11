@@ -220,7 +220,7 @@
     </TileMatrixSet>
     <Layer>
       <ows:Title>Kumamoto fault A area, 29 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0429dol1</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -232,7 +232,7 @@
     </Layer>
     <Layer>
       <ows:Title>Kumamoto fault B area, 29 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0429dol2</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -244,7 +244,7 @@
     </Layer>
     <Layer>
       <ows:Title>Nishihara 2 area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol01</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -256,7 +256,7 @@
     </Layer>
     <Layer>
       <ows:Title>Aso 2 area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol02</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -268,7 +268,7 @@
     </Layer>
     <Layer>
       <ows:Title>Minami-aso 2 area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol03</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -280,7 +280,7 @@
     </Layer>
     <Layer>
       <ows:Title>Mifune area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol04</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -292,7 +292,7 @@
     </Layer>
     <Layer>
       <ows:Title>Yatsushiro area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol05</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -304,7 +304,7 @@
     </Layer>
     <Layer>
       <ows:Title>Amakusa area, 29 &amp; 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol06</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -316,7 +316,7 @@
     </Layer>
     <Layer>
       <ows:Title>Tamana area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol07</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -328,7 +328,7 @@
     </Layer>
     <Layer>
       <ows:Title>Yamaga area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol08</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -340,7 +340,7 @@
     </Layer>
     <Layer>
       <ows:Title>Kikuchi area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol09</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -352,7 +352,7 @@
     </Layer>
     <Layer>
       <ows:Title>Takeda area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol10</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -364,7 +364,7 @@
     </Layer>
     <Layer>
       <ows:Title>Yuhuin area, 20 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0420dol11</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -376,7 +376,7 @@
     </Layer>
     <Layer>
       <ows:Title>Minami Aso 2, 19 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0419dol2</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -388,7 +388,7 @@
     </Layer>
     <Layer>
       <ows:Title>Oguni area, 19 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0419dol6</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -400,7 +400,7 @@
     </Layer>
     <Layer>
       <ows:Title>Kumamoto area, 16 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0416dol1</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -412,7 +412,7 @@
     </Layer>
     <Layer>
       <ows:Title>Uto area, 16 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0416dol2</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -424,7 +424,7 @@
     </Layer>
     <Layer>
       <ows:Title>Koshi area, 16 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0416dol3</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -436,7 +436,7 @@
     </Layer>
     <Layer>
       <ows:Title>Nishihara area, 16 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0416dol4</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -448,7 +448,7 @@
     </Layer>
     <Layer>
       <ows:Title>Aso area, 16 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0416dol5</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -460,7 +460,7 @@
     </Layer>
     <Layer>
       <ows:Title>Minami Aso, 16 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0416dol6</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -472,7 +472,7 @@
     </Layer>
     <Layer>
       <ows:Title>Beppu area, 16 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0416dol7</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -484,7 +484,7 @@
     </Layer>
     <Layer>
       <ows:Title>Mashiki area, 15 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0415dol1</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -496,7 +496,7 @@
     </Layer>
     <Layer>
       <ows:Title>South Kumamoto area, 15 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0415dol2</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -508,7 +508,7 @@
     </Layer>
     <Layer>
       <ows:Title>Uki area, 15 Apr. (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>20160414kumamoto_0415dol3</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
