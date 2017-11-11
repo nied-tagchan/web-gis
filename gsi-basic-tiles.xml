@@ -238,7 +238,7 @@
       </Styles>
       <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
-        <TileMatrixSet>z14to18</TileMatrixSet>
+        <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
@@ -262,7 +262,7 @@
       </Styles>
       <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
-        <TileMatrixSet>z5to14</TileMatrixSet>
+        <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
@@ -274,7 +274,7 @@
       </Styles>
       <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
-        <TileMatrixSet>z11to16</TileMatrixSet>
+        <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/afm/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
@@ -286,7 +286,7 @@
       </Styles>
       <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
-        <TileMatrixSet>z10to17</TileMatrixSet>
+        <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/gazo1/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
@@ -310,7 +310,7 @@
       </Styles>
       <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
-        <TileMatrixSet>z10to17</TileMatrixSet>
+        <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
@@ -322,7 +322,7 @@
       </Styles>
       <Fomat>image/png</Fomat>
       <TileMatrixSetLink>
-        <TileMatrixSet>z10to17</TileMatrixSet>
+        <TileMatrixSet>z2to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort_old10/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
