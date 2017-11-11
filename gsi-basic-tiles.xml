@@ -35,7 +35,7 @@
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/tile.xml" xmlns="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml" xmlns="http://www.w3.org/1999/xlink">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>RESTful</ows:Value>
@@ -48,7 +48,7 @@
     <ows:Operation name="GetTile">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/tile.xml" xmlns="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml" xmlns="http://www.w3.org/1999/xlink">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>RESTful</ows:Value>
@@ -59,7 +59,7 @@
       </ows:DCP>
     </ows:Operation>
   </ows:OperationsMetadata>
-  <ServiceMetadataURL xlink:href="https://nied-tagchan.github.io/web-gis/tile.xml" />
+  <ServiceMetadataURL xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml" />
   <Contents>
     <TileMatrixSet>
       <ows:Identifier>z2to18</ows:Identifier>
