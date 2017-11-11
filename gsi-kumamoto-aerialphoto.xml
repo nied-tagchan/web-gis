@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
-    <ows:Title>GSI base maps for 2016 Kumamo earthquake storymap</ows:Title>
-    <ows:Abstract>GSI base maps for 2016 Kumamo earthquake storymap</ows:Abstract>
+    <ows:Title>GSI Aerial photographs for 2016 Kumamo earthquake storymap</ows:Title>
+    <ows:Abstract>GSI Aerial photographs for 2016 Kumamo earthquake storymap</ows:Abstract>
     <ows:Keywords>
       <ows:Keyword>gsi</ows:Keyword>
       <ows:Keyword>WMTS</ows:Keyword>
