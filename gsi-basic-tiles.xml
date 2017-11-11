@@ -25,7 +25,7 @@
           <ows:City>Tsukuba</ows:City>
           <ows:AdministrativeArea>Ibaraki</ows:AdministrativeArea>
           <ows:PostalCode>305-0006</ows:PostalCode>
-          <ows:Country>日本 (Japan)</ows:Country>
+          <ows:Country>Japan</ows:Country>
           <ows:ElectronicMailAddress>tagchan@bosai.go.jp</ows:ElectronicMailAddress>
         </ows:Address>
       </ows:ContactInfo>
