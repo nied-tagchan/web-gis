@@ -220,7 +220,7 @@
     </TileMatrixSet>
     <Layer>
       <ows:Title>Active fault diagram (publicly disclosed by Headquarters for Earthquake Research Promotion)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>active_fault_suihon</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -244,7 +244,7 @@
     </Layer>
     <Layer>
       <ows:Title>Aerial photograph (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>ort</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -256,7 +256,7 @@
     </Layer>
     <Layer>
       <ows:Title>Blank map (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>blank</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -268,7 +268,7 @@
     </Layer>
     <Layer>
       <ows:Title>Active faults Map (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>afm</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -280,7 +280,7 @@
     </Layer>
     <Layer>
       <ows:Title>1970s Aerial photograph (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>gazo1</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -292,7 +292,7 @@
     </Layer>
     <Layer>
       <ows:Title>Color releaf (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>relief</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -304,7 +304,7 @@
     </Layer>
     <Layer>
       <ows:Title>1945-1950 Aerial photograph (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>ort_USA10</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
@@ -316,7 +316,7 @@
     </Layer>
     <Layer>
       <ows:Title>1961-1964 Aerial photograph (by GSI)</ows:Title>
-      <ows:Identifier>std</ows:Identifier>
+      <ows:Identifier>ort_old10</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Styles>
