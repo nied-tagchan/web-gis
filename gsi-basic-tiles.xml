@@ -219,18 +219,6 @@
       </TileMatrix>
     </TileMatrixSet>
     <Layer>
-      <ows:Title>Active fault diagram (publicly disclosed by Headquarters for Earthquake Research Promotion)</ows:Title>
-      <ows:Identifier>active_fault_suihon</ows:Identifier>
-      <Styles isDefault="true">
-        <ows:Identifier>default</ows:Identifier>
-      </Styles>
-      <Fomat>image/png</Fomat>
-      <TileMatrixSetLink>
-        <TileMatrixSet>z2to18</TileMatrixSet>
-      </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://insarmap.gsi.go.jp/xyz/active_fault_suihon/{TileMatrix}/{TileCol}/{TileRow}.png" />
-    </Layer>
-    <Layer>
       <ows:Title>Standard Map (by GSI)</ows:Title>
       <ows:Identifier>std</ows:Identifier>
       <Styles isDefault="true">
@@ -253,6 +241,18 @@
         <TileMatrixSet>z14to18</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/ort/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
+      <ows:Title>Active fault diagram (publicly disclosed by Headquarters for Earthquake Research Promotion)</ows:Title>
+      <ows:Identifier>active_fault_suihon</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://insarmap.gsi.go.jp/xyz/active_fault_suihon/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
       <ows:Title>Blank map (by GSI)</ows:Title>
