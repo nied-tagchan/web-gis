@@ -1,44 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
+<Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd" version="1.0.0">
+  <!-- Service Identification -->
   <ows:ServiceIdentification>
-    <ows:Title>GSI basic maps</ows:Title>
-    <ows:Abstract>GSI base maps for 2016 Kumamo earthquake storymap</ows:Abstract>
-    <ows:Keywords>
-      <ows:Keyword>gsi</ows:Keyword>
-      <ows:Keyword>WMTS</ows:Keyword>
-      <ows:Keyword>Japan</ows:Keyword>
-    </ows:Keywords>
+    <ows:Title>tileserverphp</ows:Title>
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
-    <ows:Fees>none</ows:Fees>
-    <ows:AccessConstraints>none</ows:AccessConstraints>
   </ows:ServiceIdentification>
-  <ows:ServiceProvider xmlns="http://www.w3.org/1999/xlink">
-    <ows:ProviderName>NIED-CRS</ows:ProviderName>
-    <ows:ProviderSite xlink:href="/http://www.bosai.go.jp/" />
-    <ows:ServiceContact>
-      <ows:IndividualName>NIED-CRS</ows:IndividualName>
-      <ows:PositionName>NIED-CRS</ows:PositionName>
-      <ows:ContactInfo>
-        <ows:Address>
-          <ows:DeliveryPoint>Tennodai</ows:DeliveryPoint>
-          <ows:City>Tsukuba</ows:City>
-          <ows:AdministrativeArea>Ibaraki</ows:AdministrativeArea>
-          <ows:PostalCode>305-0006</ows:PostalCode>
-          <ows:Country>Japan</ows:Country>
-          <ows:ElectronicMailAddress>tagchan@bosai.go.jp</ows:ElectronicMailAddress>
-        </ows:Address>
-      </ows:ContactInfo>
-    </ows:ServiceContact>
-  </ows:ServiceProvider>
+  <!-- Operations Metadata -->
   <ows:OperationsMetadata>
     <ows:Operation name="GetCapabilities">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml" xmlns="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>RESTful</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+          <!-- add KVP binding in 10.1 -->
+          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>KVP</ows:Value>
               </ows:AllowedValues>
             </ows:Constraint>
           </ows:Get>
@@ -48,10 +32,17 @@
     <ows:Operation name="GetTile">
       <ows:DCP>
         <ows:HTTP>
-          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml" xmlns="http://www.w3.org/1999/xlink">
+          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml">
             <ows:Constraint name="GetEncoding">
               <ows:AllowedValues>
                 <ows:Value>RESTful</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+          <ows:Get xlink:href="https://nied-tagchan.github.io/web-gis/gsi-basic-tiles.xml">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>KVP</ows:Value>
               </ows:AllowedValues>
             </ows:Constraint>
           </ows:Get>
