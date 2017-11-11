@@ -303,7 +303,7 @@
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/20160414kumamoto_0420dol05/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
-      <ows:Title>Amakusa area, 29 &amp; 20 Apr. (by GSI)</ows:Title>
+      <ows:Title>Amakusa area, 19 and 20 Apr. (by GSI)</ows:Title>
       <ows:Identifier>20160414kumamoto_0420dol06</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
