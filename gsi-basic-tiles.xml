@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Capabilities version="1.0.0" xmlns="https://www.opengis.net/wmts/1.0" xmlns:ows="https://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.opengis.net/wmts/1.0 https://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
   <ows:ServiceIdentification>
-    <ows:Title>GSI base maps for 2016 Kumamo earthquake storymap</ows:Title>
+    <ows:Title>GSI basic maps</ows:Title>
     <ows:Abstract>GSI base maps for 2016 Kumamo earthquake storymap</ows:Abstract>
     <ows:Keywords>
       <ows:Keyword>gsi</ows:Keyword>
@@ -219,6 +219,18 @@
       </TileMatrix>
     </TileMatrixSet>
     <Layer>
+      <ows:Title>Active fault diagram (publicly disclosed by Headquarters for Earthquake Research Promotion)</ows:Title>
+      <ows:Identifier>std</ows:Identifier>
+      <Styles isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Styles>
+      <Fomat>image/png</Fomat>
+      <TileMatrixSetLink>
+        <TileMatrixSet>z2to18</TileMatrixSet>
+      </TileMatrixSetLink>
+      <ResourceURL format="image/png" resourceType="tile" template="http://insarmap.gsi.go.jp/xyz/active_fault_suihon/{TileMatrix}/{TileCol}/{TileRow}.png" />
+    </Layer>
+    <Layer>
       <ows:Title>Standard Map (by GSI)</ows:Title>
       <ows:Identifier>std</ows:Identifier>
       <Styles isDefault="true">
@@ -255,7 +267,7 @@
       <ResourceURL format="image/png" resourceType="tile" template="https://cyberjapandata.gsi.go.jp/xyz/blank/{TileMatrix}/{TileCol}/{TileRow}.png" />
     </Layer>
     <Layer>
-      <ows:Title>Active faults (by GSI)</ows:Title>
+      <ows:Title>Active faults Map (by GSI)</ows:Title>
       <ows:Identifier>std</ows:Identifier>
       <Styles isDefault="true">
         <ows:Identifier>default</ows:Identifier>
