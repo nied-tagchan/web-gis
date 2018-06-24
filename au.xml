@@ -11,7 +11,7 @@
 <TileMatrixSetLink>
 <TileMatrixSet>z2to18</TileMatrixSet>
 </TileMatrixSetLink>
-<ResourceURL format="image/png" resourceType="tile" template="http://www13.info-mapping.com/au/map/services/tile.asp?l=1&amp;t=B&amp;x={TileCol}&amp;y=${TileRow}&amp;z={TileMatrix}"/>
+<ResourceURL format="image/png" resourceType="tile" template="http://www13.info-mapping.com/au/map/services/tile.asp?l=1&amp;t=B&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"/>
 </Layer>
 <TileMatrixSet>
 <ows:Identifier>z2to18</ows:Identifier>
